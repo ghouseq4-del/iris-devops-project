@@ -1,7 +1,7 @@
 trigger:
 - main
 pool:
-  vmImage: ubuntu-latest
+  name: Default
 steps:
 - checkout: self
 - task: UsePythonVersion@0
